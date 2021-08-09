@@ -1,0 +1,67 @@
+body {
+    background:rgb(78, 72, 72);
+    font-family: 'Arvo', serif;
+}
+
+h1{
+    text-align:center;
+    margin:100px;
+}
+
+p{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    display:block;
+}
+
+#projects{
+    display:block;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:red;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+
+}
+
+.nav-list{
+    display:flex;
+    margin-right:2em;
+    padding:0;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+ul{
+    list-style:none;
+    padding:0;
+    font-size:1.8rem;
+    font-weight:400;
+    line-height:.05;
+    
+}
+
+.projects-section-header{
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid; 
+}
