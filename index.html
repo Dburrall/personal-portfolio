@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" type="css" href="index.css"/>
+    <link href="index.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+        </style>
+        
 </head>
 <body>
     <!--start of nav-->
     <nav id="navbar" class="nav">
-    <ul>
+    <ul class="nav-list">
         <li><a href="#welcome-section">About</a></li>
         <li><a href="#projects">Work</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -19,14 +21,15 @@
     <!--end of nav-->
 
     <!--START WELCOME-->
-    <section id="welcome-section" class="welcome-section"></section>
+    <section id="welcome-section" class="welcome-section">
 
     <h1> My name is Daniel Burrall</h1>
-    <p>& here are a few of my projects</p>
+    <p>& I aspire to be a full stack dev</p>
+</section>
     <!--END WELCOME-->
 
     <!--START PROJECTS-->
-    <section id="projects" class="projects-section"></section>
+    <section id="projects" class="projects-section">
     <h2 class="projects-section-header">These are my projects</h2>
     <div class="project-grid">
         <a href="https://codepen.io/Dburrall/pen/bGWwvbO" target="blank" class="project-title">
@@ -46,7 +49,8 @@
         <a href="https://codepen.io/Dburrall/pen/YzVRqLY" target="blank" class="project-title">
         <img class="project-image" src="images/Technical Documentation.png" alt="document page">
         </a>
-
+        </div>
+        </section>
         <!--END PROJECTS-->
 
         <!--START CONTACT-->
