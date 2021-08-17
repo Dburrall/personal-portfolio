@@ -1,22 +1,65 @@
 body {
-    background: repeating-linear-gradient(#89ccd8, #7e7a7a 40%, #414344 50.1%, #498DCB 100%);
+    background: repeating-linear-gradient(#44cde6, #7e7a7a 40%, #414344 50.1%, #498DCB 100%);
     font-family: 'Arvo', serif;
 }
 
-h1{
-    font-size:40px;
-    text-align:center;
-    margin:150px;
-}
+
 
 p{
     text-align:center;
 }
 
-h2{
-    text-align:center;
-    display:block;
+
+.projects-section-header{
+    text-align:Center;
 }
+
+/*Keep text to the left of the screen and space out the sentences by a slight margin*/
+#welcome-section{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0px;
+    max-width:800px;
+}
+
+/*color change on text*/
+.name{
+    color:#a8b2d1;
+}
+
+
+
+.stackDev{
+    color:#a8b2d1;
+}
+.aboutMe{
+    font-size:28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid; 
+    margin-bottom:6rem;
+}  
+
+/*keep text of paragraph to a box level of words*/
+#danielB{
+    max-width:600px;
+    font-size:24px;
+}
+
+a{
+    text-decoration:none;
+    color:#a8b2d1;
+}
+
+
+
 
 #projects{
     display:block;
@@ -25,7 +68,7 @@ h2{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 6rem;
+    margin-bottom: 0.2rem;
 }
 /*nav bar settings*/
 #navbar{
@@ -140,5 +183,10 @@ ul{
 
 .fab{
     font-family: "font Awesome 5 Brands";
+}
+
+
+#contact{
+    text-align:center;
 }
 /*end of contacts section*/
