@@ -6,9 +6,25 @@
     <link href="index.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+
         </style>
      <script src="https://kit.fontawesome.com/754f7b471b.js" crossorigin="anonymous"></script>
-        
+     <style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <!--start of nav-->
@@ -23,13 +39,14 @@
 
     <!--START WELCOME-->
 <section id="welcome-section" class="welcome">
-
-    <h1> Hi, My name is <em>
+    <div id="transition">
+    <h1> Hi, My name is</h1>
+    </div>
     <h1 class="name"><em>Daniel Burrall</em></h1>
     <h2>I enjoy coding,&nbsp; Lord Of The Rings & coffee.</h2>
-    <h2 class="stackDev">I aspire to be a full stack dev.</h2>
-    <p>
-    & I plan on designing the best looking UI's on the web.
+    <h2 class="stackDev">I aspire to be a full stack dev,</h2>
+    <p class="plan">
+    <b>& I plan on designing the best looking UI's on the web.</b>
     </p>
 </section>
 
@@ -39,8 +56,9 @@
     <section id="about">
 
         <h1 class="aboutMe">A little about myself</h1>
-
+        <img id="profile-pic" src="images/profilepic.png" alt="me holding my favorite dog">
         <p id="danielB">
+            
             Incase you missed it up top, my name is Daniel Burrall.
             I was born and raised in Dayton, Ohio my whole life.
             I found myself becoming interested in coding and web design
@@ -52,8 +70,7 @@
             other languages.
         </p>
 
-        <!--Insert photo here, move it to the right of the paragraph-->
-        <img src="images/profilepic.png" alt="me holding my favorite dog"max-width: 100%;display: block; position: static;>
+        
     }
 
     <br>
