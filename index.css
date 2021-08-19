@@ -7,6 +7,11 @@ body {
 
 p{
     text-align:center;
+
+    
+}
+#transition{
+    transition-delay:3s;
 }
 
 
@@ -25,17 +30,29 @@ p{
     min-height: 100vh;
     padding: 0px;
     max-width:800px;
+    font-size:20px;
 }
 
 /*color change on text*/
 .name{
-    color:#a8b2d1;
+    color:#edeff3;
+}
+
+.plan{
+    font-size:30px;
+    font-family: 'Arvo', serif;
 }
 
 
-
 .stackDev{
-    color:#a8b2d1;
+    color:#f7f7f8;
+}
+
+#about{
+
+    text-align:center;
+
+
 }
 .aboutMe{
     font-size:28px;
@@ -47,10 +64,19 @@ p{
     margin-bottom:6rem;
 }  
 
+#profile-pic{
+    width: 30%;
+    height: auto;
+    background-size:contain;
+    
+}
+
 /*keep text of paragraph to a box level of words*/
 #danielB{
     max-width:600px;
     font-size:24px;
+    float:left;
+    padding:5rem;
 }
 
 a{
