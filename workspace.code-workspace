@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Heath landscaping"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Holli's kitchen"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "personal portfolio"
+	}
+}

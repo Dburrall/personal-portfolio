@@ -1,6 +1,7 @@
 body {
-    background: repeating-linear-gradient(#44cde6, #7e7a7a 40%, #414344 50.1%, #498DCB 100%);
+    background: repeating-linear-gradient(#44cde6, #c7c0c0 40%, #476472 50.1%, #498DCB 100%);
     font-family: 'Arvo', serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -43,13 +44,15 @@ p{
     font-family: 'Arvo', serif;
 }
 
-
+/*//Color change on text//*/
 .stackDev{
     color:#f7f7f8;
 }
 
 #about{
-
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
     text-align:center;
 
 
@@ -58,27 +61,30 @@ p{
     font-size:28px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:center;
-    max-width: 640px;
+    max-width: 750px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid; 
     margin-bottom:6rem;
 }  
 
-#profile-pic{
-    width: 30%;
+.profile-pic{
+    filter:drop-shadow(2px 4px 8px #585858);
+    width: 28%;
     height: auto;
     background-size:contain;
-    border: 5px solid rgb(7, 7, 7);
+    border-radius: 25px;
     
 }
-
-/*//keep text of paragraph to a box level of words//*/
-#danielB{
+.danielB{
     max-width:600px;
     font-size:24px;
-    float:left;
     padding:5rem;
+    border-radius: 25px;
+    border: 4px solid black;
+   
 }
+
+
 
 a{
     text-decoration:none;
@@ -151,6 +157,8 @@ ul{
     
 }
 
+
+
 /*//start of project grid styling//*/
 
 .project-grid{
@@ -169,13 +177,17 @@ ul{
 }
 
 .project{
-    
-        background: rgb(53, 48, 48);
+        
+        background: rgb(17, 16, 16);
         box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
         border-radius: 2px;
         text-decoration:none;
         color:white;
     
+}
+
+.project:hover{
+    box-shadow: 10px 0 40px rgb(209, 199, 199); 
 }
 
 
@@ -236,3 +248,12 @@ ul{
       transform: translateX(0%);
     }
   }
+
+  /*for Mobile Phones*/
+[class*="img"]{
+    width:100%;
+}
+
+[class="danielB"]{
+    width:100%;
+}
