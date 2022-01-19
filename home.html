@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewpoint"
+    <meta name="viewport"
     content="width=device-width,
     initial-scale=1.0">
     <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="index.css" rel="stylesheet">
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
-
-        </style>
-     
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
         
+     </style>
+     
+     
 </head>
 <body>
     <!--start of nav-->
     <nav id="navbar" class="nav">
     <ul class="nav-list">
-        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#projects">Work</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
@@ -29,115 +32,219 @@
     <!--START WELCOME-->
 <section id="welcome-section" class="slidein">
 
-    <h1> Hi, My name is</h1>
+    <h1> Hi, my name is</h1>
+    <br>
     <h1 class="name"><em>Daniel Burrall</em></h1>
+    <br>
     <h2>I enjoy coding,&nbsp; Lord Of The Rings & coffee.</h2>
-    <h2 class="stackDev">I aspire to be a full stack dev,</h2>
+    <br>
+    <h2 class="stackDev"><b>I aspire to be a full stack dev,</b></h2>
     <p class="plan">
+    <br>
     <b>& I plan on designing the best looking UI's on the web.</b>
     </p>
 </section>
 
         <!--END WELCOME-->
 
-         <!--Start about me-->
-        
-        <h1 class="aboutMe">A little about myself</h1>
+
+        <!--About section-->
+
+        <div class="fade">
+
         <section id="about">
-        <img class="profile-pic" src="images/profilepic.png" alt="me holding my favorite dog">
-        </div>
-    
-        <p class="danielB">
+
             
-        
-                I was born and raised in Dayton, Ohio my whole life.
-            I'm an avid Bears fan (Go Bears) and a lifetime long
-             computer nerd.
-            I found myself becoming interested in programming after a friend showed 
-            me the line of work he was in, after that I did some research into the field of 
-            a full stack developer and thought it looked really neat, and rewarding.
+                <h1 style="color:white;"><em>A little school & a lot of self taught</em></h1>
+                <div class="bio">
+                <p>A Dayton Ohio native, looking to get his foot in the door into a fascinating career in Web Development. I spend hours a week studying, and working on projects along the way.
+                    With certifcation from <a href="Freecodecamp.org"> FreeCodeCamp</a> and finishing the Full-Stack curriculum on  <a href="theodinproject.com">The Odin Project</a> I feel that I am ready to show the world 
+                    what I'm capable of creating. Take a look for yourself!
+                </p>
+
+            </div>
+
             <br>
             <br>
-                So I decided to enroll myself into an Associates in Computer Science 
-            with a emphasis on Software Development. So far I've completed training
-            on FreeCodeCamp.org, <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>, and currently finishing classes on
-            other languages.
-        </p>
-    
-    
+            <div class="header">
+                <h1 style="color:white;">Current languages & Frameworks include</h1>
+            </div>
 
-    <br>
-    <br>
-    <br>
-    
-    </section>
-<br>
-<br>
-         <!--START PROJECTS SECTION-->
-    <section id="projects" class="projects-section">
-    <h2 class="projects-section-header">& These are my projects</h2>
-    <div class="project-grid">
+            <div class="languages">
+                <i class="fab fa-html5 fa-7x"></i>
+                <i class="fab fa-css3-alt fa-7x"></i>
+                <i class="fab fa-js fa-7x"></i>
+                <i class="fab fa-bootstrap fa-7x"></i>
+                <i class= "fab fa-sass fa-7x"></i>
+            </div>
 
-        <!--PROJECT 1-->
-        <a href="https://github.com/Dburrall/Holli-s-Kitchen" target="blank" class=" project project-title">
-        <img class="project-image" src="images/Screenshot_2021-11-14_13-21-13.png" alt="Holli's Kitchen website">
-       <p class="project-title">
-           <span class="code"></span>
-           <em>Holli's Kitchen</em>
-           <span class="code"></span>
-       </p>
-    </a>
-        <!--PROJECT 2-->
-        <a href="https://codepen.io/Dburrall/pen/poPeOLg" target="blank" class=" project project-title">
-        <img class="project-image" src="images/newSurvey.png" alt="picture of survey form from project">
-        <p class="project-title">
-            <span class="code"></span>
-            <em>Survey form</em>
-            <span class="code"></span>
-        </p>
-    </a>
 
-         <!--PROJECT 3-->
-        <a href="https://codepen.io/Dburrall/pen/qBmPeRe" target="blank" class=" project project-title">
-        <img class="project-image" src="images/bearsSite.png" alt="screnshot from product page project">
-        <p class="project-title">
-            <span class="code"></span>
-            <em>Product page</em>
-            <span class="code"></span>
-        </p>
-    </a>
-         <!--PROJECT 4-->
-        <a href="https://codepen.io/Dburrall/pen/YzVRqLY" target="blank" class="project project-title">
-        <img class="project-image" src="images/techincalDocumentation.png" alt="document page">
-        <p class="project-title">
-            <span class="code"></span>
-            <em>Techincal document</em>
-            <span class="code"></span>
-        </p>
-    </a>
-
-    <!--PROJECT 5-->
-    <a href="https://github.com/Dburrall/Heath-landscaping" target="blank" class="project project-title">
-    <img class="project-image" src="images/ScreenShot.png" alt="services page">
-    <p class="project-title">
-        <span class="code"></span>
-        <em>Yard services page</em>
-        <span class="code"></span>
-    </p>
-    </a>
-
-    <!--Project 6-->
-    <a href="https://codepen.io/Dburrall/pen/abwGVeK" target="blank" class="project project-title">
-    <img class="project-image" src="images/Gym.png" alt="gym page">
-    <p class="project-title">
-        <span class="code"></span>
-        <em>Macros Gym</em>
-        <span class="code"></span>
-    </p>
-    </a>
-        </div>
         </section>
-        <!--END PROJECTS-->
+</div>
+         
+
+
+<!--Javascript Projects-->
+<div class="fade">
+<!--JS project 1-->
+
+<h1 class="projectHeading"> JavaScript Projects</h1>
+<section id="jsproject">
+
+
+
+<div class="card" style="width: 18rem;">
+    <img class="h-50"src="images/jsPiano.png" class="card-img-top" alt="Piano Project">
+    <div class="card-body">
+        <div class="text-center">
+      <h5 class="card-title">Piano Project</h5>
+      </div>
+      <p class="card-text">This is a project using DOM manipulation that I worked through for Codecademy's certification in Javascript.</p>
+      <div class="text-center">
+      <a href="https://codepen.io/Dburrall/pen/xxXejLY" class="btn btn-primary" class="center-text">Codepen</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!--JS project 2-->
+
+
+    <div class="card" style="width: 18rem;">
+        <img class="" src="images/jsEtchSketch.png" class="card-img-top" alt="Etch-n-sketch project">
+        <div class="card-body">
+            <div class="text-center">
+          <h5 class="card-title">Etch-N-Sketch</h5>
+          </div>
+          <p class="card-text">This is a working Etch-n-sketch I worked through for Odin Projects section of DOM manipulation.</p>
+          <div class="text-center">
+          <a href="https://codepen.io/Dburrall/pen/xxLNZdG" class="btn btn-primary">Codepen</a>
+          </div>
+        </div>
+      </div>
+
+<!--JS project 3-->
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="images/jsChoreGame.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <div class="text-center">
+          <h5 class="card-title">Chore-bot game</h5>
+          </div>
+          <p class="card-text">A working JS game I made with the help of Codecademy. It's the final part of DOM manipulation, try it yourself & aim for the highscore!</p>
+          <div class="text-center">
+          <a href="https://codepen.io/Dburrall/pen/KKXJVNv" class="btn btn-primary">Codepen</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+</section>
+</div>
+
+       <!--Project 1-->
+       <h1 class="projectHeading">& these are my  website projects</h1>
+        <section id="projects">
+            
+            
+            
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="text-center">
+                <div class="p-3 mb-2 bg-secondary text-light">
+                <div class="row g-0">
+                  <div class="col-md-10">
+                    <a href="https://github.com/Dburrall/Macros"><img src="images/Gym.png" class="img-fluid rounded-start" alt="..."></a>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <h5 class="card-title">Macros Gym</h5>
+                      <p class="card-text">This is a landing page I made for a fictional Gym to work on Bootstrap.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            
+            <!--Project 2-->
+
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="text-center">
+                <div class="p-3 mb-2 bg-secondary text-light">
+                <div class="row g-0">
+                  <div class="col-md-10">
+                    <a href="https://github.com/Dburrall/Holli-s-Kitchen"><img src="images/Screenshot_2021-11-14_13-21-13.png" class="img-fluid rounded-start" alt="..."></a>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <h5 class="card-title">Holli's Kitchen</h5>
+                      <p class="card-text">This is a site I'm working on that my wife inspired me to make.</p>
+                    
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+
+            <!--Project 3-->
+
+
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="text-center">
+                <div class="p-3 mb-2 bg-secondary text-light">
+                <div class="row g-0">
+                  <div class="col-md-10">
+                    <a href="https://github.com/Dburrall/Product-project"><img src="images/bearsSite.png" class="img-fluid rounded-start" alt="..."></a>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="card-body">
+                      <h5 class="card-title">Bears experience</h5>
+                      <p class="card-text">This is a landing page I made for my favorite NFL team: The Chicago Bears.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            <br>
+            <br>
+
+        </section>
+
+
+        <!--Websites-->
+<section id="websites">
+
+    <div class="header">
+        <h1>Current launched websites</h1>
+    </div>
+
+    <div class="container">
+        
+<a href="https://emeraldyardscaping.com/" target="_blank">
+<img class="imageCard"  src="images/emeraldYards.png" alt="screenshot from my website">
+</a>
+
+<p>More coming soon...</p>
+    </div>
+    
+</section>
+
+
+
+
+
 
         <!--START CONTACT-->
             <section id="contact" class="contact-section">
@@ -155,9 +262,9 @@
                     <i class="fab fa-codepen"></i>
                 Codepen
                 </a>
+                
 
-
-
+                
 
             </div>
         </section>
@@ -173,7 +280,8 @@
 
 
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/754f7b471b.js" crossorigin="anonymous"></script>
 </body>
 </html>
